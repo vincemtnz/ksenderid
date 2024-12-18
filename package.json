@@ -1,0 +1,16 @@
+{
+  "name": "ksenderid",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.714.0",
+    "@faker-js/faker": "^9.3.0",
+    "electrodb": "^3.0.1"
+  }
+}
